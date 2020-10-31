@@ -1,0 +1,40 @@
+/* :root {
+  --main-bg-color: #ee9ca7;
+  --main-font-color: ;
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Staatliches", cursive;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+}
+
+.main {
+  height: auto;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+input {
+  align-items: center;
+}
+
+.App-header {
+  width: 100vw;
+  height: 60vh;
+}
